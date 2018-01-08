@@ -51,20 +51,20 @@ h2 {
 p {
     font-family: 'FutuLt';
     color: #000000;
-    font-size: 1.0em;
+    font-size: 18px;
     text-align: center
 }
 
 a {
     font-family: 'FutuLt';
     color: #000000;
-    font-size: 1.5em;
+    font-size: 18px;
 }
 
 li {
     font-family: 'FutuLt';
     color: #000000;
-    font-size: 1em;
+    font-size: 18px;
     margin: 5px;
     align-content: center;
 
@@ -73,7 +73,7 @@ li {
 ul {
     font-family: 'FutuLt';
     color: #ffffff;
-    font-size: 1em;
+    font-size: 18px;
     align-content: center;
     text-align: center;
     list-style-position: inside;
@@ -282,7 +282,7 @@ ul {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
     margin: 4px 2px;
     -webkit-transition-duration: 0.4s;
     /* Safari */
@@ -309,7 +309,7 @@ ul {
     font-weight: 900;
     font-family: 'lineto-circular-pro-medium';
     color: #ffffff;
-    font-size: 1.2em;
+    font-size: 18px;
     background-color: #bdccd4;
     padding: 20px;
     text-align: center;
