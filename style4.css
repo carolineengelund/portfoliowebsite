@@ -1,0 +1,398 @@
+* {
+    margin: 0vw;
+    padding: 0vw;
+    box-sizing: border-box;
+}
+
+section {
+    margin: 0;
+}
+
+body {
+    background-color: #bdccd4;
+}
+
+/*-----------------  font  -------------*/
+
+@font-face {
+    font-family: 'lineto-circular-pro-book';
+    src: url(font/lineto-circular-pro-book.ttf);
+}
+
+@font-face {
+    font-family: 'EngraversGothicBT';
+    src: url(font/EngraversGothicBT.ttf);
+}
+
+@font-face {
+    font-family: 'FutuLt';
+    src: url(font/FutuLt.ttf);
+}
+
+@font-face {
+    font-family: 'lineto-circular-pro-medium';
+    src: url(font/lineto-circular-pro-medium.ttf);
+}
+
+
+h1 {
+    font-family: 'lineto-circular-pro-book';
+    font-size: 2.5em;
+}
+
+h2 {
+    font-family: 'lineto-circular-pro-medium';
+    color: #ffffff;
+    font-size: 1.2em;
+
+
+}
+
+p {
+    font-family: 'FutuLt';
+    color: #000000;
+    font-size: 1.0em;
+    text-align: center
+}
+
+a {
+    font-family: 'FutuLt';
+    color: #000000;
+    font-size: 1.5em;
+}
+
+li {
+    font-family: 'FutuLt';
+    color: #000000;
+    font-size: 1em;
+    margin: 5px;
+    align-content: center;
+
+}
+
+ul {
+    font-family: 'FutuLt';
+    color: #ffffff;
+    font-size: 1em;
+    align-content: center;
+    text-align: center;
+    list-style-position: inside;
+}
+
+/*----------------  parent  ------------*/
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.column_content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.column_content a {
+    font-size: 1em;
+}
+
+/*-----------------  child  -------------*/
+
+.column {
+    flex-basis: 100px;
+    flex-grow: 1;
+    padding: 2vw;
+    width: 100%
+}
+
+.column_wide {
+    flex-basis: 100px;
+    flex-grow: 2;
+}
+
+.img {
+    flex-basis: 10px;
+    flex-grow: 1;
+}
+
+.txt {
+    flex-basis: 10px;
+    flex-grow: 1;
+}
+
+.column a {
+    font-size: 1em;
+}
+
+/*------------------  menu  --------------*/
+
+/* Dropdown Button */
+
+.dropbtn {
+    background-color: #bdccd4;
+    color: #ffffff;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'lineto-circular-pro-book';
+}
+
+/* Dropdown button on hover & focus */
+
+.dropdown-content a:hover,
+.dropdown-content a:focus {
+    color: #bdccd4;
+    background-color: #ffffff;
+}
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #bdccd4;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #ffffff;
+    padding: 15px 15px;
+    text-decoration: none;
+    display: block;
+    font-family: 'lineto-circular-pro-book';
+    color: #ffffff;
+    font-size: 16px;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+/*------------------  a1  --------------*/
+
+#a1 {
+    background-color: #bdccd4;
+
+}
+
+
+#a1 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+#a1 img {
+    width: 100%;
+}
+
+
+/*------------------  a2  --------------*/
+
+#a2 {
+    background-color: #ffffff;
+
+
+}
+
+
+#a2 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+
+#a2 img {
+    width: 60%;
+}
+
+/*------------------  a3  --------------*/
+
+#a3 {
+    background-color: #bdccd4;
+    padding-bottom: 20vw;
+    padding: 2vw 5vw 2vw 5vw;
+
+}
+
+
+#a3 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+    padding-bottom: 2vw;
+
+
+}
+
+#a3 .p {
+    font-family: 'FutuLt';
+    color: #ffffff;
+    font-size: 1.0em;
+    text-align: center
+}
+
+
+/* Clear floats after the columns */
+
+#a3 .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+#a3 .botton {
+    background-color: #bdccd4;
+    border: none;
+    border-color: #ffffff;
+    border-radius: 12px;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    align-content: center;
+}
+
+#a3 .button:hover {
+    background-color: #ffffff;
+    color: #bdccd4;
+}
+
+
+#a3 img {
+    width: 60%;
+}
+
+/*------------------  a4  --------------*/
+
+#a4 {
+    background-color: #ffffff;
+    padding-bottom: 5vw;
+
+}
+
+
+#a4 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+
+}
+
+#a4 img {
+    width: 60%;
+}
+
+
+/*------------------  a5  --------------*/
+
+#a5 {
+    background-color: #bdccd4;
+    padding-bottom: 5vw;
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+
+#a5 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+#a5 img {
+    width: 60%;
+
+}
+
+/*------------------  a6  --------------*/
+
+#a6 {
+    background-color: #ffffff;
+    padding-bottom: 10vw;
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+
+}
+
+
+#a6 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+    padding-bottom: 5vw;
+}
+
+#a4 img {
+    width: 60%;
+
+}
+
+/*------------------  button  --------------*/
+
+.button {
+    background-color: #bdccd4;
+    border: none;
+    border-radius: 12px;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    align-content: center;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    color: #bdccd4;
+}
+
+
+/*------------------  logo  --------------*/
+
+.logo {
+    width: 5px;
+}
+
+/*------------------  footer  --------------*/
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #bdccd4;
+    color: white;
+    font-weight: 900;
+    font-family: 'lineto-circular-pro-medium';
+    color: #ffffff;
+    font-size: 1.2em;
+    background-color: #bdccd4;
+    padding: 20px;
+    text-align: center;
+}
